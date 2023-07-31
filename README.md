@@ -14,6 +14,7 @@ steps:
     GS_VERSION: '5.0'  # See https://hub.docker.com/r/enmotech/opengauss for available versions
     GS_USERNAME: 'gaussdb'
     GS_PASSWORD: 'Gauss@123' 
+    GS_DB: 'gaussdb' 
 ```
 
 # License

@@ -15,6 +15,10 @@ inputs:
     description: 'GS_USERNAME - create the specified user with superuser power'
     required: false
     default: ''
+  GS_DB:
+    description: 'GS_DB '
+    required: false
+    default: 'gaussdb'
   GS_PASSWORD:
     description: 'GS_PASSWORD - superuser password'
     required: true
