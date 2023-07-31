@@ -11,6 +11,14 @@ inputs:
     description: 'Version of Opengauss to use'
     required: false
     default: 'latest'
+  opengauss db:
+    description: 'POSTGRES_DB - name for the default database that is created'
+    required: false
+    default: 'postgres'
+  opengauss user:
+    description: 'GS_USERNAME - create the specified user with superuser power'
+    required: false
+    default: ''
   opengauss password:
     description: 'GS_PASSWORD - superuser password'
     required: true
