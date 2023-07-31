@@ -1,28 +1,20 @@
-name: 'Setup PostgreSQL'
-description: 'Setup a PostgreSQL database'
-author: 'Harmon'
+name: 'Setup OpenGauss database'
+description: 'Setup a OpenGauss database'
+author: 'namo'
 branding:
   icon: 'database'
   color: 'blue'
 inputs:
-  # See https://hub.docker.com/_/postgres for supported versions
+  # See https://hub.docker.com/r/enmotech/opengauss for supported versions
   # and further details on input environment variables
-  postgresql version:
-    description: 'Version of PostgreSQL to use'
+  opengauss version:
+    description: 'Version of Opengauss to use'
     required: false
     default: 'latest'
-  postgresql db:
-    description: 'POSTGRES_DB - name for the default database that is created'
-    required: false
-    default: ''
-  postgresql user:
-    description: 'POSTGRES_USER - create the specified user with superuser power'
-    required: false
-    default: ''
-  postgresql password:
-    description: 'POSTGRES_PASSWORD - superuser password'
-    required: false
-    default: ''
+  opengauss password:
+    description: 'GS_PASSWORD - superuser password'
+    required: true
+    default: 'Gauss@123'
 runs:
   using: 'docker'
   image: 'Dockerfile'
