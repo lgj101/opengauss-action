@@ -12,6 +12,8 @@ steps:
 - uses: lgj101/opengauss-action@v1
   with:
     opengauss version: '5.0'  # See https://hub.docker.com/r/enmotech/opengauss for available versions
+    opengauss username: 'gaussdb'  
+    opengauss password: 'Gauss@123' 
 ```
 
 # License
