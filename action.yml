@@ -7,19 +7,15 @@ branding:
 inputs:
   # See https://hub.docker.com/r/enmotech/opengauss for supported versions
   # and further details on input environment variables
-  opengauss version:
+  GS_VERSION:
     description: 'Version of Opengauss to use'
     required: false
     default: 'latest'
-  opengauss db:
-    description: 'POSTGRES_DB - name for the default database that is created'
-    required: false
-    default: 'postgres'
-  opengauss user:
+  GS_USERNAME:
     description: 'GS_USERNAME - create the specified user with superuser power'
     required: false
     default: ''
-  opengauss password:
+  GS_PASSWORD:
     description: 'GS_PASSWORD - superuser password'
     required: true
     default: 'Gauss@123'
