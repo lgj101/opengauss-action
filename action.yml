@@ -11,6 +11,14 @@ inputs:
     description: 'Version of Opengauss to use'
     required: false
     default: 'latest'
+  HOST_PORT:
+    description: ' The port of host'
+    required: false
+    default: 15432
+  CONTAINER_PORT:
+    description: ' The port of container'
+    required: false
+    default: 5432
   GS_USERNAME:
     description: 'GS_USERNAME - create the specified user with superuser power'
     required: false

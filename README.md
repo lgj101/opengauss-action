@@ -15,6 +15,8 @@ steps:
     GS_USERNAME: 'gaussdb'
     GS_PASSWORD: 'Gauss@123' 
     GS_DB: 'gaussdb' 
+    HOST_PORT: 15432 
+    CONTAINER_PORT: 5432 
 ```
 
 # License
