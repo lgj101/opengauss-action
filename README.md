@@ -9,7 +9,7 @@ See [action.yml](action.yml)
 Basic:
 ```yaml
 steps:
-- uses: lgj101/opengauss-action@v1
+- uses: lgj101/opengauss-action@v2.0
   with:
     GS_VERSION: '5.0'  # See https://hub.docker.com/r/enmotech/opengauss for available versions
     GS_USERNAME: 'gaussdb'
